@@ -1,4 +1,5 @@
 // main.js
+import 'babel-polyfill'
 
 // 获取环境变量
 console.log('NODE_EN', process.env.NODE_ENV)
