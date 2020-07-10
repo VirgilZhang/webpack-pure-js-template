@@ -2,7 +2,7 @@
   "name": "mvvm",
   "version": "1.0.0",
   "description": "mvvm demo",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode=production --config config/webpack.config.js --progress --colors",

@@ -8,7 +8,7 @@ let config = {
         main: path.join(__dirname, '../src/main.js')
     },
     output: {
-        filename: '[name][hash].bundle.js',
+        filename: '[name].min.js',
         path: path.join(__dirname, '../dist')
     },
     plugins: [
